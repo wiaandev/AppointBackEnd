@@ -20,5 +20,7 @@ public class AppointDbContext : IdentityDbContext<User, IdentityRole<int>, int>
         base.OnModelCreating(builder);
 
         // TODO: Add entity relationships
+
+        // https://learn.microsoft.com/en-us/ef/core/modeling/relationships
     }
 }
