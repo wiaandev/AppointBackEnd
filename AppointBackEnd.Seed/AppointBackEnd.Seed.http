@@ -1,0 +1,6 @@
+@AppointBackEnd.Seed_HostAddress = http://localhost:5007
+
+GET {{AppointBackEnd.Seed_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

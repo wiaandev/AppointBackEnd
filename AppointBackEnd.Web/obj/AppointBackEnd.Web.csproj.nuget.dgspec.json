@@ -1,0 +1,210 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/wiaanduvenhage/Desktop/AppointBackEnd/AppointBackEnd.Web/AppointBackEnd.Web.csproj": {}
+  },
+  "projects": {
+    "/Users/wiaanduvenhage/Desktop/AppointBackEnd/AppointBackEnd.Web/AppointBackEnd.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/wiaanduvenhage/Desktop/AppointBackEnd/AppointBackEnd.Web/AppointBackEnd.Web.csproj",
+        "projectName": "AppointBackEnd.Web",
+        "projectPath": "/Users/wiaanduvenhage/Desktop/AppointBackEnd/AppointBackEnd.Web/AppointBackEnd.Web.csproj",
+        "packagesPath": "/Users/wiaanduvenhage/.nuget/packages/",
+        "outputPath": "/Users/wiaanduvenhage/Desktop/AppointBackEnd/AppointBackEnd.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/wiaanduvenhage/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AWSSDK.CognitoIdentity": {
+              "target": "Package",
+              "version": "[3.7.300.88, )"
+            },
+            "AWSSDK.CognitoIdentityProvider": {
+              "target": "Package",
+              "version": "[3.7.305.1, )"
+            },
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.7.303.28, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.307.30, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
+            "HotChocolate.Abstractions": {
+              "target": "Package",
+              "version": "[13.9.1, )"
+            },
+            "HotChocolate.AspNetCore": {
+              "target": "Package",
+              "version": "[13.9.1, )"
+            },
+            "HotChocolate.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[13.9.1, )"
+            },
+            "HotChocolate.Data": {
+              "target": "Package",
+              "version": "[13.9.1, )"
+            },
+            "HotChocolate.Data.EntityFramework": {
+              "target": "Package",
+              "version": "[13.9.1, )"
+            },
+            "HotChocolate.Types": {
+              "target": "Package",
+              "version": "[13.9.1, )"
+            },
+            "HotChocolate.Types.Analyzers": {
+              "target": "Package",
+              "version": "[13.9.1, )"
+            },
+            "HotChocolate.Types.CursorPagination": {
+              "target": "Package",
+              "version": "[13.9.1, )"
+            },
+            "HotChocolate.Types.Scalars.Upload": {
+              "target": "Package",
+              "version": "[13.9.1, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.AspNetCore.SpaProxy": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.9.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "PreMailer.Net": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,0 @@
-@AppointBackEnd_HostAddress = http://localhost:5071
-
-GET {{AppointBackEnd_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
