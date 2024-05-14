@@ -14,6 +14,7 @@ public class AppointDbContext : IdentityDbContext<User, IdentityRole<int>, int>
     }
 
     // TODO: Set tables / entities
+    // TODO: Test
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
